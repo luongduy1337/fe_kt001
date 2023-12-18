@@ -1,3 +1,218 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text__base {
+    color: #A8742A;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text__base__active {
+    color: #E8BA40;
+    font-size: 26px;
+}
+
+.link__services {
+    color: #E8BA40;
+    font-size: 20px;
+    border: 1px solid #E8BA40;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    transition: 1s all;
+}
+
+.button__contact {
+    color: #E8BA40;
+    font-size: 20px;
+    border: 1px solid #E8BA40;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    transition: 1s all;
+}
+
+.link__services:hover {
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #E8BA40;
+}
+
+.text__color {
+    color: #A39763;
+}
+
+.background__header {
+    background-color: black;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+.footer {
+    background-color: white;
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer__contact {
+    width: 25%;
+}
+
+.footer__service {
+    width: 25%;
+}
+
+.footer__logo {
+    width: 50%;
+}
+
+.home__banner {
+    padding: 50px 100px;
+    border-bottom: .5px solid #E8BA40;
+}
+
+.banner__img {
+    height: 535px;
+    width: 66%;
+}
+
+.company__name {
+    font-size: 40px;
+}
+
+
+.intro {
+    padding: 100px 100px;
+}
+
+.intro__first {
+    margin: 100px 0px;
+}
+
+
+.intro__content__first {
+    margin-right: 30px;
+    border-top: 2px solid #E8BA40;
+    padding-top: 10px;
+}
+
+
+.intro__content__second {
+    margin-left: 30px;
+    border-top: 2px solid #E8BA40;
+    padding-top: 10px;
+}
+
+.intro__img {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.intro__content__first .text {
+    font-size: 32px;
+}
+
+.intro__content__second .text {
+    font-size: 32px;
+}
+
+
+.intro__title {
+    font-size: 40px;
+}
+
+.statistics {
+    width: 100%;
+    height: 535px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: 100px 0px;
+}
+
+
+.statistics__layout {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+}
+
+.item .number {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.item .icon {
+    width: 150px;
+    height: 150px;
+    color: #E8BA40;
+    border: 10px solid #FEAA56;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: black;
+
+}
+
+.list__statistics {
+    padding: 0px 300px;
+}
+
+.statistics__text {
+    font-size: 40px;
+    color: white;
+}
+
+.contact {
+    padding: 100px 200px;
+}
+
+.contact__form {
+    margin: 20px 0px;
+}
+
+.contact__title {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+
+.input__form:focus {
+    border: 1px solid #E8BA40!important;
+}
+
+.success__text {
+    font-weight: bold;
+    font-size: 64px;
+    color: #5cb85c;
+}
+
+.success_form {
+    padding: 160px 0px;
+}
+
+.success__content {
+    margin: 20px;
+}
+
+.contact__img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.contact__form__parent {
+    width: 50%;
+}
+
+
+.layout__auth {
+    padding: 200px;
+}
+
+
+
